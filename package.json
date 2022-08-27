@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-strk2",
-  "version": "1.0.2-beta.4",
+  "version": "1.0.3",
   "description": "一个很nice的eslint配置~",
   "author": "strk2",
   "main": "index.js",
