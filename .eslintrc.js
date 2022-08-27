@@ -1,4 +1,4 @@
-{
+module.exports = {
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module",
@@ -20,14 +20,22 @@
   ],
   "extends": [
     "eslint:recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
   ],
   "rules": {
+    "prettier/prettier": "error",
     "no-set-state": "off",
+    "prefer-destructuring": "warn",
     "no-shadow": "off",
     "quotes": [
       "error",
       "single"
+    ],
+    "prefer-destructuring": "warn",
+    "array-bracket-spacing": "warn",
+    "block-spacing": [
+      2,
+      "always"
     ],
     "react-hooks/rules-of-hooks": 0,
     "react-hooks/exhaustive-deps": "warn",
@@ -60,8 +68,8 @@
         "ignoredNodes": [
           "TemplateLiteral"
         ],
-        "SwitchCase": 1,
-      },
+        "SwitchCase": 1
+      }
     ],
     "import/extensions": [
       2,
@@ -71,8 +79,8 @@
         "jsx": "never",
         "ts": "never",
         "tsx": "never"
-      },
-    ],
+      }
+    ]
   },
   "overrides": [
     {
@@ -90,12 +98,11 @@
           {
             "args": "none"
           }
-        ],
-      },
+        ]
+      }
     }
   ],
   "settings": {
-    // 解决路径引用ts文件报错的问题
     "import/resolver": {
       "node": {
         "extensions": [
@@ -105,7 +112,6 @@
           ".tsx"
         ]
       },
-      // 解决tsconfig下的path别名导致eslint插件无法解决的bug
       "typescript": {
         "alwaysTryTypes": true
       }

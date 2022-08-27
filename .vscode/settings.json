@@ -1,30 +1,44 @@
 {
+  "workbench.colorTheme": "Theme (Italic)",
+  "files.autoSave": "afterDelay",
+  "security.workspace.trust.untrustedFiles": "open",
   "prettier.jsxSingleQuote": true,
-  "[typescript]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  "prettier.printWidth": 120,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.unicodeHighlight.allowedCharacters": "：",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
   },
-  "diffEditor.ignoreTrimWhitespace": false,
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+  "eslint.options": {
+    "overrideConfigFile": ".eslintrc",
+    "extensions": [
+      ".js",
+      ".vue",
+      ".jsx",
+      ".tsx"
+    ]
   },
-  "[scss]": {
-    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+  "eslint.format.enable": true,
+  "eslint.run": "onType",
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "[jsonc]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
   },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnSave": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "files.autoSave": "afterDelay",
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+  "eslint.debug": true,
+  "eslint.execArgv": null,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   },
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "prettier.printWidth": 120,
-  "editor.codeActionsOnSave": {}
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
 }
