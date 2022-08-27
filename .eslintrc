@@ -6,6 +6,10 @@
       "jsx": true
     }
   },
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "parser": "@typescript-eslint/parser",
   "plugins": [
     "prettier",
@@ -25,7 +29,6 @@
       "error",
       "single"
     ],
-    //
     "react-hooks/rules-of-hooks": 0,
     "react-hooks/exhaustive-deps": "warn",
     "max-lines-per-function": "off",
@@ -104,7 +107,7 @@
       },
       // 解决tsconfig下的path别名导致eslint插件无法解决的bug
       "typescript": {
-        "alwaysTryTypes": true,
+        "alwaysTryTypes": true
       }
     }
   }

@@ -1,18 +1,18 @@
 {
   "prettier.jsxSingleQuote": true,
   "[typescript]": {
-    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "editor.unicodeHighlight.allowedCharacters": "：",
   "[javascript]": {
-    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[scss]": {
     "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"

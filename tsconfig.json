@@ -1,4 +1,12 @@
 {
+  "compileOnSave": true,
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+  ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
@@ -71,9 +79,9 @@
     /* Advanced Options */
     "skipLibCheck": true, /* Skip type checking of declaration files. */
     "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
-    "resolveJsonModule": true,
-    "exclude": [
-      "node_modules"
-    ]
+    "resolveJsonModule": true
+    // "exclude": [
+    //   "node_modules"
+    // ]
   }
 }
