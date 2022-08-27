@@ -23,7 +23,12 @@ module.exports = {
     "plugin:react/recommended",
   ],
   "rules": {
-    "prettier/prettier": "error",
+    'prettier/prettier': [
+      'error',
+       {
+          singleQuote: true
+       }
+   ],
     "no-set-state": "off",
     "prefer-destructuring": "warn",
     "no-shadow": "off",
