@@ -1,0 +1,30 @@
+{
+  "prettier.jsxSingleQuote": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+  },
+  "editor.unicodeHighlight.allowedCharacters": "：",
+  "[javascript]": {
+    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "carlsirce.vscode-eden-plugin"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "afterDelay",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "prettier.printWidth": 120,
+  "editor.codeActionsOnSave": {}
+}
