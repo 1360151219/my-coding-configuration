@@ -1,4 +1,8 @@
+# eslint-config-strk2
+
 ## Usage
+
+**Before read low，please install vscode extensions：`Eslint`**
 
 **First：** 
 
