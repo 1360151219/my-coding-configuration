@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-psfe",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "一个很nice的eslint配置~",
   "author": "zhanjingxi",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "url": "https://github.com/1360151219/my-coding-configuration/issues"
   },
   "homepage": "https://github.com/1360151219/my-coding-configuration#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.35.1",
     "@typescript-eslint/parser": "^5.35.1",
     "eslint": "^8.23.0",
@@ -28,6 +28,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1",
     "typescript": "^4.8.2"
   },
   "peerDependencies": {

@@ -15,9 +15,9 @@ module.exports = {
   extends: ['eslint:recommended', 'plugin:react/recommended'],
   rules: {
     'no-set-state': 'off',
-    'prefer-destructuring': 'warn',
     'no-shadow': 'off',
     quotes: ['error', 'single'],
+    'prefer-destructuring': 'warn',
     'array-bracket-spacing': 'warn',
     'block-spacing': [2, 'always'],
     'react-hooks/rules-of-hooks': 0,
