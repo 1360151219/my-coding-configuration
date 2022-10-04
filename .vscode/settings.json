@@ -8,7 +8,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "eslint.alwaysShowStatus": true,
   "eslint.codeAction.showDocumentation": {
@@ -16,12 +16,7 @@
   },
   "eslint.options": {
     "overrideConfigFile": ".eslintrc",
-    "extensions": [
-      ".js",
-      ".vue",
-      ".jsx",
-      ".tsx"
-    ]
+    "extensions": [".js", ".vue", ".jsx", ".tsx"]
   },
   "eslint.format.enable": true,
   "eslint.run": "onType",
@@ -40,5 +35,5 @@
   },
   "[typescript]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-  },
+  }
 }
