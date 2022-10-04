@@ -1,4 +1,4 @@
-# eslint-config-strk2
+# eslint-config-psfe
 
 ## Usage
 
@@ -7,13 +7,13 @@
 **First：** 
 
 ```bash
-npm i eslint-config-strk2 --save-dev
+npm i eslint-config-psfe --save-dev
 ```
 
 **Second：** 
 
 ```bash
-npx install-peerdeps --dev eslint-config-strk2
+npx install-peerdeps --dev eslint-config-psfe
 ```
 
 **Finally：**
@@ -23,11 +23,21 @@ Create a new file named `.eslintrc` in your **root path**，and write in below
 ```json
 {
     "extends": [
-        "eslint-config-strk2"
+        "eslint-config-psfe"
     ]
 }
 ```
 
+Create .vscode/settings.json
+```
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
 ## Q/A
 
 ### Delete `␍`eslintprettier/prettier
