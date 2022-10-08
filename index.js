@@ -1,3 +1,3 @@
 const eslintrc = require('./.eslintrc.js');
-// test
+// test 2
 module.exports = eslintrc;
